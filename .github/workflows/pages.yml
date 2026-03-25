@@ -1,0 +1,73 @@
+# Builds the Hugo site from exampleSite/ and deploys to GitHub Pages.
+# Prerequisites: Repository → Settings → Pages → Source: GitHub Actions.
+#
+# baseURL: By default uses https://OWNER.github.io/REPO/ (correct for project sites).
+# If that does not match your site (e.g. user site repo OWNER.github.io), set the
+# repository variable HUGO_BASEURL (Settings → Secrets and variables → Actions → Variables)
+# to e.g. https://OWNER.github.io/
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.157.0"
+          extended: true
+
+      - name: Build
+        env:
+          HUGO_ENVIRONMENT: production
+        run: |
+          if [ -n "${{ vars.HUGO_BASEURL }}" ]; then
+            BASE_URL="${{ vars.HUGO_BASEURL }}"
+          else
+            BASE_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          fi
+          echo "Using baseURL: ${BASE_URL}"
+          hugo \
+            --source exampleSite \
+            --gc \
+            --minify \
+            --environment production \
+            --baseURL "${BASE_URL}"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: exampleSite/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
