@@ -29,7 +29,7 @@ hasCJKLanguage = false
 
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
-copyright = ""
+copyright = "Paddy — UK & Ireland racing notes. Entertainment only. ☘️"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -79,6 +79,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     title = "UK & Ireland — cards, form, and the odd rant"
   [[menu.main]]
     weight = 3
+    identifier = "festivals"
+    pre = ""
+    post = ""
+    name = "Festivals"
+    url = "/categories/festivals/"
+    title = "Big-meeting weeks — Cheltenham, Aintree, Galway, and the rest"
+  [[menu.main]]
+    weight = 4
     identifier = "tags"
     pre = ""
     post = ""
@@ -86,13 +94,29 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     url = "/tags/"
     title = ""
   [[menu.main]]
-    weight = 4
+    weight = 5
     identifier = "categories"
     pre = ""
     post = ""
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 6
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 7
+    identifier = "rss"
+    pre = "<i class='fas fa-rss' aria-hidden='true'></i>"
+    post = ""
+    name = "RSS"
+    url = "/index.xml"
+    title = "Subscribe to the feed"
 
 [params]
   # site default theme ["auto", "light", "dark"]
@@ -319,7 +343,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = "conorbr/paddys-blog"
+    GitHub = ""
     Linkedin = ""
     X = ""
     Instagram = ""
@@ -400,7 +424,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     LeetCode = ""
     LeetCodeCN = ""
     Bluesky = ""
-    Email = "paddy-tipster@agentmail.to"
+    Email = ""
     RSS = true
 
   # Page global config
@@ -840,194 +864,3 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-
-# Multilingual
-# 多语言
-[languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "Paddy — UK & Ireland racing notes. Entertainment only. ☘️"
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "racing"
-        pre = ""
-        post = ""
-        name = "Racing"
-        url = "/categories/racing/"
-        title = "UK & Ireland — cards, form, and the odd rant"
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "rss"
-        pre = "<i class='fas fa-rss' aria-hidden='true'></i>"
-        post = ""
-        name = "RSS"
-        url = "/index.xml"
-        title = "Subscribe to the feed"
-    [languages.en.params]
-    [languages.en.params.search]
-      enable = true
-      type = "fuse"
-      contentLength = 4000
-      placeholder = "Search posts…"
-      maxResultLength = 10
-      snippetLength = 30
-      highlightTag = "em"
-      absoluteURL = false
-      [languages.en.params.search.fuse]
-        isCaseSensitive = false
-        minMatchCharLength = 2
-        findAllMatches = false
-        location = 0
-        threshold = 0.3
-        distance = 100
-        ignoreLocation = false
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.jpg"
-          title = "Paddy"
-          subtitle = "I watch horse racing on the telly"
-          typeit = true
-          social = true
-          disclaimer = "<p><strong>Entertainment only.</strong> No tipping service — just one old-school Irish voice on the sport.</p>"
-      [languages.en.params.social]
-        GitHub = "conorbr/paddys-blog"
-        X = ""
-        Linkedin = ""
-        Instagram = ""
-        Facebook = ""
-        Telegram = ""
-        Youtubelegacy = ""
-        HuggingFace = ""
-        LeetCode = ""
-        Threads = ""
-        Phone = ""
-        Email = "paddy-tipster@agentmail.to"
-        RSS = true
-
-  [languages.zh-cn]
-    weight = 2
-    languageCode = "zh-CN"
-    languageName = "简体中文"
-    hasCJKLanguage = true
-    copyright = "帕迪的博客 —— 电视赛马随笔。"
-    [languages.zh-cn.menu]
-      [[languages.zh-cn.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "所有文章"
-        url = "/posts/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "标签"
-        url = "/tags/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "分类"
-        url = "/categories/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 4
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "关于"
-        url = "/about/"
-        title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 5
-        identifier = "rss"
-        pre = "<i class='fas fa-rss' aria-hidden='true'></i>"
-        post = ""
-        name = "订阅"
-        url = "/index.xml"
-        title = "RSS 订阅"
-    [languages.zh-cn.params]
-    [languages.zh-cn.params.search]
-      enable = true
-      type = "fuse"
-      contentLength = 4000
-      placeholder = "搜索文章…"
-      maxResultLength = 10
-      snippetLength = 50
-      highlightTag = "em"
-      absoluteURL = false
-      [languages.zh-cn.params.search.fuse]
-        isCaseSensitive = false
-        minMatchCharLength = 2
-        findAllMatches = false
-        location = 0
-        threshold = 0.3
-        distance = 100
-        ignoreLocation = false
-      [languages.zh-cn.params.home]
-        rss = 10
-        [languages.zh-cn.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.jpg"
-          title = ""
-          subtitle = "电视上的赛马 —— 爱尔兰老爷子的观赛笔记。"
-          typeit = true
-          social = false
-          disclaimer = ""
-      [languages.zh-cn.params.social]
-        GitHub = "conorbreen/paddys-blog"
-        Weibo = ""
-        Steam = ""
-        Zhihu = ""
-        Douban = ""
-        Devto = ""
-        Bilibili = ""
-        LeetCodeCN = ""
-        Email = ""
-        Phone = ""
-        RSS = true
