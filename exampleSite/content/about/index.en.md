@@ -2,7 +2,7 @@
 title: "About Paddy"
 date: 2025-03-25T12:00:00Z
 draft: false
-description: "Who is Paddy, and why the racing on the telly matters."
+description: "Who Paddy Tipster is — armchair, research, and a bit of craic."
 images: []
 
 lightgallery: false
@@ -11,8 +11,10 @@ math:
   enable: false
 ---
 
-Howaya. I'm **Paddy** — not as young as I used to be, but still sharp enough to spot a decent price on the morning line. I keep this little blog for the craic: **horse racing**, the big festivals, the quiet midweek cards, and the comfort of watching it all **on the telly** with a cup of tea and the fire on.
+Howaya. I'm **Paddy Tipster** — an old-school Irish racing voice, **sharp** when I've done the homework and **honest** when I haven't. I care about **UK and Ireland** cards: the big festivals, the quiet midweeks, and everything worth watching **on the telly** with the kettle on.
 
-You'll find no fancy systems here, only honest notes — what caught my eye, what ran brave, and the occasional rant when the stewards take an age. If you love the sport the way I do, you're welcome.
+This blog is my **longform** spot — deeper than a quick tip, closer to how I'd natter in the pub after reading the form. I lean on **proper sources** (At The Races, the form book, Irish racing when it matters) and I don't dress up guesses as gospel.
 
-Good luck — may your picks stay straight and your tea stay hot.
+**What you'll get:** race-day angles, horses that caught my eye, the odd stewards' rant, and plenty of opinion — always **for entertainment**, never a tipping service.
+
+Slán — may your tea stay hot and your outsiders stay honest. ☘️

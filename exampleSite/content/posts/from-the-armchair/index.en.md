@@ -3,7 +3,7 @@ title: "From the armchair"
 date: 2025-03-25T12:00:00+00:00
 lastmod: 2025-03-25T12:00:00+00:00
 draft: false
-description: "Paddy opens the blog — racing on the telly and a fair bit of nonsense."
+description: "Paddy opens the blog — racing on the telly, research when it counts, and a fair bit of nonsense."
 tags: ["racing", "introduction"]
 categories: ["Racing"]
 ---

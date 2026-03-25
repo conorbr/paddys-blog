@@ -1,5 +1,6 @@
 ---
 title: "Racing"
+description: "UK & Ireland — armchair notes, form-first, no filler."
 ---
 
-Notes from the couch, the track on the telly, and the days that matter.
+Paddy's **racing** posts: the couch, the **telly**, and the days that actually matter on the calendar. Research-led where possible, colourful always.
