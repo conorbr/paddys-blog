@@ -1,12 +1,10 @@
-# Builds the Hugo site from exampleSite/ and deploys to GitHub Pages.
-# Prerequisites: Repository → Settings → Pages → Source: GitHub Actions.
+# Default deployment: build Hugo from exampleSite/ and publish to GitHub Pages.
+# Repository → Settings → Pages → Source: GitHub Actions.
 #
-# baseURL: By default uses https://OWNER.github.io/REPO/ (correct for project sites).
-# If that does not match your site (e.g. user site repo OWNER.github.io), set the
-# repository variable HUGO_BASEURL (Settings → Secrets and variables → Actions → Variables)
-# to e.g. https://OWNER.github.io/
+# baseURL defaults to https://OWNER.github.io/REPO/ (project sites).
+# Override with repository variable HUGO_BASEURL if needed (e.g. user site or custom domain).
 
-name: Deploy to GitHub Pages
+name: Deploy
 
 on:
   push:
