@@ -45,6 +45,12 @@ jobs:
           hugo-version: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.hugo_version || 'latest' }}
           extended: true
 
+      - name: Ensure LoveIt theme symlink
+        run: |
+          if [ ! -e LoveIt ]; then
+            ln -sfn . LoveIt
+          fi
+
       - name: Build
         run: |
           hugo ${{ matrix.build_args }}

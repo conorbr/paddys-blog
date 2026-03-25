@@ -37,6 +37,13 @@ jobs:
           hugo-version: "0.157.0"
           extended: true
 
+      # theme = "LoveIt" + themesDir = ".." expects ../LoveIt → repo root (symlink to .).
+      - name: Ensure LoveIt theme symlink
+        run: |
+          if [ ! -e LoveIt ]; then
+            ln -sfn . LoveIt
+          fi
+
       - name: Build
         env:
           HUGO_ENVIRONMENT: production
