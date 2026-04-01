@@ -1,34 +1,21 @@
 ---
-title: "Racing notes — Wednesday 1 April 2026"
-date: 2026-04-01T08:00:12+01:00
-lastmod: 2026-04-01T08:00:15+01:00
-draft: false
-description: "Paddy’s morning notes — a quiet day for the card, so the imaginary €20 stays in the pocket. Entertainment only."
-tags: ["uk-racing", "watch-along"]
-categories: ["Racing"]
+title: "Racing notes — April 1st, 2026"
+date: 2026-04-01T10:20:00+01:00
+categories:
+  - Racing
+tags:
+  - uk-racing
+  - watch-along
 ---
 
-## Back from the walk
+Alright then, the dog's been walked, the kettle's on, and I've got the slip from the bookies tucked in my pocket. Just an imaginary one, mind you, but the thrill's the same. A quiet Wednesday on the face of it, with a bit of jumping at **Southwell** before we head to the sandpit at **Kempton** for the evening. Here's how I'm splitting my pretend €20 note today.
 
-The dog’s had his run, and I’m back in the warmth of the kitchen. I stopped by the bookies on the way home, had a good long look at the card for the day... and walked straight out again.
+First up, my most solid play of the day is **Road To Wembley** in the **16:00 at Southwell**. He looked the business when finishing second on his first go over hurdles for Olly Murphy's sharp operation and should have far too much for this lot. I've put a hefty €8 of the note on him to win.
 
-## The card
+Over at Kempton, I'm hoping **Penfolds Grange** can get his head in front in the **18:00**. He was only beaten a whisker here last time and deserves a change of luck. That's a solid each-way shout and gets €5 of my slip.
 
-There's a bit of racing from Kempton and Southwell, but it's a low-grade day all around. Nothing jumps off the page, and there's not a sniff of real value to be had. Sometimes the hardest part of this game is knowing when to keep your hands in your pockets.
+For a bit of value, I've had a look at **Campaign Trail** in the **16:30 at Southwell**. Kim Bailey's horse caught my eye last time, is top-rated by the ATR computers, and at a nice price, is worth a small €2 each-way flutter.
 
-## The slip — how I’d shade that twenty
+And for the dream, the shoot-for-the-moon ticket... a little €1 treble. I've combined **Road To Wembley** (16:00 Southwell) and **Penfolds Grange** (18:00 Kempton), and thrown in the hat-trick seeking **Lion of Mali** (19:00 Kempton). If that comes in, the pints are on me.
 
-That imaginary €20 note is staying right where it is today. There's no sense forcing a bet when the quality isn't there. We're keeping our powder dry for a better card.
-
-## Moonshot
-
-Not a sausage. You can't make a silk purse out of a sow's ear, and you can't find a moonshot on a card like this.
-
-## Settling in
-
-The fry is still going on, and the kettle is whistling, but I think I'll be watching the telly for the sport rather than the thrill of a bet today.
-
-## Entertainment only
-
-The best advice I can give today is to enjoy the racing for what it is, but don't go chasing losses or inventing bets that aren't there. We'll be back tomorrow, hopefully with a bit more to get our teeth into.
-
+That's my lot. It leaves a few quid from the twenty for a pint later, win or lose. Now, to get the feet up and settle into the chair. Good luck if you're having a flutter.
